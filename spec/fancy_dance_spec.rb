@@ -1,3 +1,4 @@
+=begin
 describe 'FancyDance::InstanceMethods module' do
   let(:dummy_class) { Class.new { include FancyDance::InstanceMethods }.new }
 
@@ -25,3 +26,4 @@ describe 'FancyDance::ClassMethods module' do
     expect(dummy_class.metadata).to eq("This class produces objects that love to dance.")
   end
 end
+=end
